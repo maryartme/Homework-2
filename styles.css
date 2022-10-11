@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+#header {
+    height: 15vh;
+    background-color: cadetblue;
+}
+
+.container {
+max-width: 1280px;
+margin: 0 auto;
+}
+
+.logo {
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.main_wrapper {
+    display: flex;
+    height: 70vh;
+}
+
+aside {
+    width: 40%;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 60%;
+    background-color: darksalmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    width: 350px;
+}
+.form1 {
+    background-color: green;
+}
+.form2 {
+    background-color: green;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    border: rgb(209, 85, 85);
+    background-color: coral;
+    border-style: groove;
+}
+
+footer {
+    height: 15vh;
+    background-color: darkkhaki;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
