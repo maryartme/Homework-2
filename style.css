@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+table {
+    background-color: #ffff00;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.block_color1 {
+    background-color: #7004eb;
+}
+
+.block_color2 {
+    background-color: #ff0000;
+}
+
+.block_color3 {
+    background-color: #0000ff;
+}
+
+.block_color4 {
+    background-color: #ffa500;
+}
+
+.block_color5 {
+    background-color: #4682b4;
+}
+th {
+    padding: 8px;
+}
+
+.block_color6 {
+    background-color: #ffffff;
+}
